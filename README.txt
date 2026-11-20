@@ -1,5 +1,7 @@
-CardioDoc PWA v12
+CardioDoc PWA v13 — new red heart ECG home-screen icon.
 
-GitHub Pages: upload the contents of this folder to the ROOT of a public repository, Settings > Pages > Deploy from a branch > main / (root). Open the HTTPS Pages URL in Safari on iPhone, Share > Add to Home Screen.
+Replace the four files in your GitHub repository root (index.html, sw.js, manifest.webmanifest, README.txt) and upload all three icons to icons/ (overwrite existing files). You can also upload all files in this folder.
 
-First visit requires internet. Later visits may work offline after caching. Local patient data stays in this browser/site storage and can be lost if website data is cleared. This is not a secure server-side patient records system. Do not publish patient data. Do not expect Safari file:// or ChatGPT preview to install as PWA.
+GitHub Pages: Settings > Pages > Deploy from a branch > main / (root). After deployment, on iPhone remove the old CardioDoc Home Screen shortcut, open the site in Safari, then Share > Add to Home Screen. iOS may cache the old icon.
+
+Do not publish patient data. Local browser storage is not a secure patient records system.
