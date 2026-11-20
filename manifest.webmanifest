@@ -1,0 +1,25 @@
+{
+  "name": "CardioDoc — Dr. Dostonbek Toshnazarov",
+  "short_name": "CardioDoc",
+  "description": "Тиббий кўчирмалар ва таблетка тавсиялари",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#101010",
+  "lang": "uz",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
